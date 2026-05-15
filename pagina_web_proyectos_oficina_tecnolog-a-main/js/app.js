@@ -230,7 +230,7 @@ function renderProyectos() {
         <button onclick="mostrarVista('principal')" class="btn-volver">← Volver al Inicio</button>
       </div>
       <div class="seccion-titulo">Proyectos Tecnológicos</div>
-      <p class="seccion-subtitulo">Gestión y seguimiento de los 44 proyectos de innovación tecnológica de la Corte Suprema de Justicia.</p>
+      <p class="seccion-subtitulo">Gestión y seguimiento de los 43 proyectos de innovación tecnológica de la Corte Suprema de Justicia.</p>
 
       <!-- Controles principales -->
       <div class="proyectos-controles" style="margin-top:32px">

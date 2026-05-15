@@ -40,7 +40,7 @@ El portal funciona como una SPA (Single Page Application): todo corre en `index.
 | Vista | Contenido | Cómo llegar |
 |---|---|---|
 | **Inicio** | Hero, estadísticas, Misión/Visión/Valores, Equipo, Organigrama | Logo o enlaces Inicio / Direccionamiento / Equipo en el menú |
-| **Proyectos** | Grid de los 44 proyectos con filtros y paginación | Botón "Ver Proyectos" o enlace "Proyectos" en el menú |
+| **Proyectos** | Grid de los 43 proyectos con filtros y paginación | Botón "Ver Proyectos" o enlace "Proyectos" en el menú |
 
 Desde la vista Proyectos, el botón **← Volver al Inicio** regresa a la vista principal.
 
@@ -67,7 +67,7 @@ const OFICINA_INFO = {
     // agregar o quitar valores aquí
   ],
   stats: [
-    { numero: "44", label: "Proyectos" },
+    { numero: "43", label: "Proyectos" },
     { numero: "14", label: "Profesionales TI" },
     { numero: "2026", label: "Año en curso" }
     // las tres cifras que aparecen en el hero
@@ -99,7 +99,7 @@ Lista de las 14 personas. Cada entrada aparece como tarjeta en la sección "Nues
 
 ### 3. Proyectos — `PROYECTOS`
 
-Array con los 44 proyectos. Cada proyecto tiene estos campos:
+Array con los 43 proyectos. Cada proyecto tiene estos campos:
 
 | Campo | Tipo | Descripción |
 |---|---|---|
