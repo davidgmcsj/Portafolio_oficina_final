@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oficina de Tecnología — Corte Suprema de Justicia de Colombia. Portal de proyectos de transformación digital.">
+  <meta name="author" content="Oficina de Tecnología CSJ">
+  <title>Oficina de Tecnología — Corte Suprema de Justicia</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+</head>
+
+<body>
+
+  <div id="navbar"></div>
+
+  <!-- ── VISTA PRINCIPAL: Inicio · Misión · Organigrama ─── -->
+  <main id="vista-principal">
+    <div id="hero"></div>
+    <div id="mision-section"></div>
+    <div id="organigrama-section"></div>
+    <div id="org-interactivo-section"></div>
+  </main>
+
+  <!-- ── VISTA PROYECTOS ──────────────────────────────────── -->
+  <main id="vista-proyectos" style="display:none">
+    <div id="proyectos-section"></div>
+  </main>
+
+  <div id="footer"></div>
+
+  <!-- Modal de proyecto -->
+  <div class="modal-overlay" id="modal-overlay" onclick="if(event.target===this)cerrarModal()">
+    <div class="modal">
+      <div class="modal-content"></div>
+    </div>
+  </div>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">↑</button>
+
+  <script src="js/datos.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

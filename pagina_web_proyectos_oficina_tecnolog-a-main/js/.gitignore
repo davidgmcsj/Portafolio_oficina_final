@@ -1,0 +1,36 @@
+# --- SEGURIDAD ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# --- NODE / REACT / NEXT.JS ---
+node_modules/
+/build
+/.next/
+npm-debug.log*
+yarn-error.log*
+
+# --- PYTHON / FASTAPI ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# --- .NET ---
+bin/
+obj/
+*.user
+*.suo
+[Dd]ebug/
+[Rr]elease/
+
+# --- SISTEMA ---
+.DS_Store
+Thumbs.db
